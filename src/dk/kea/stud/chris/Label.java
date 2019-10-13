@@ -8,13 +8,12 @@ public class Label extends View {
     this.text = "";
   }
 
-  public void setText(String text) {
-    this.text = text;
+  public String getText() {
+    return text;
   }
 
-  @Override
-  public void draw() {
-    System.out.println(this);
+  public void setText(String text) {
+    this.text = text;
   }
 
   @Override

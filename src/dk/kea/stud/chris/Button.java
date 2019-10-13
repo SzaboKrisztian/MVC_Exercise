@@ -13,11 +13,6 @@ public class Button extends View implements Usable {
   }
 
   @Override
-  public void draw() {
-    System.out.println(this);
-  }
-
-  @Override
   public void use() {
     controller.onUse(id);
   }

@@ -12,9 +12,8 @@ public class InputField extends View implements Usable {
     return value;
   }
 
-  @Override
-  public void draw() {
-    System.out.print(this);
+  public void setValue(String value) {
+    this.value = value;
   }
 
   @Override

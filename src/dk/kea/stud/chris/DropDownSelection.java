@@ -32,11 +32,6 @@ public class DropDownSelection extends View implements Usable {
   }
 
   @Override
-  public void draw() {
-    System.out.print(this);
-  }
-
-  @Override
   public void use() {
     if (!options.isEmpty()) {
       int selection;

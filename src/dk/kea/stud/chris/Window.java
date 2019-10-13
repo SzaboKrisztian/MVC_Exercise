@@ -12,9 +12,8 @@ public class Window extends ContainerView {
     this.title = title;
   }
 
-  @Override
-  public void draw() {
-    System.out.println(this);
+  public String getTitle() {
+    return title;
   }
 
   @Override
